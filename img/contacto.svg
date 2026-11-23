@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 280" role="img" aria-label="Ilustración de un sobre de correo y un globo de conversación">
+  <rect width="480" height="280" rx="18" fill="#e9eef8"/>
+  <rect x="90" y="80" width="230" height="150" rx="12" fill="#14213d"/>
+  <path d="M90 92 L205 170 L320 92" fill="none" stroke="#fca311" stroke-width="8" stroke-linejoin="round" stroke-linecap="round"/>
+  <rect x="270" y="30" width="160" height="90" rx="16" fill="#1f8a7d"/>
+  <path d="M310 120 L300 150 L338 120 Z" fill="#1f8a7d"/>
+  <rect x="292" y="52" width="116" height="9" rx="4.5" fill="#f5f7fb"/>
+  <rect x="292" y="72" width="90" height="9" rx="4.5" fill="#f5f7fb"/>
+  <rect x="292" y="92" width="60" height="9" rx="4.5" fill="#fca311"/>
+</svg>

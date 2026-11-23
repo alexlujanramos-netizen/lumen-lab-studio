@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Datos de contacto y formulario de Lumen Lab Studio.">
+  <title>Contáctanos | Lumen Lab Studio</title>
+  <link rel="icon" type="image/svg+xml" href="img/logo.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap">
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+  <header class="sitio">
+    <div class="contenedor">
+      <a class="marca" href="index.html" aria-label="Lumen Lab Studio, ir al inicio">
+        <img src="img/logo.svg" alt="Logotipo de Lumen Lab Studio">
+        <span>Lumen <em>Lab</em> Studio</span>
+      </a>
+      <nav aria-label="Navegación principal">
+        <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="nosotros.html">Nosotros</a></li>
+        <li><a href="mision.html">Misión</a></li>
+        <li><a href="vision.html">Visión</a></li>
+        <li><a href="servicios.html">Servicios y tarifas</a></li>
+        <li><a href="proyectos.html">Proyectos</a></li>
+        <li><a href="contactanos.html" class="activo" aria-current="page">Contáctanos</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="titulo-pagina">
+      <div class="contenedor">
+        <h1>Contáctanos</h1>
+        <p>Cuéntanos tu idea y te enviamos una cotización</p>
+      </div>
+    </div>
+
+    <section>
+      <div class="contenedor">
+        <div class="dos-columnas" style="align-items:start">
+          <div>
+            <h2>Información de contacto</h2>
+            <ul class="datos-contacto">
+              <li><strong>Correo electrónico</strong><a href="mailto:hola@lumenlabstudio.example">hola@lumenlabstudio.example</a></li>
+              <li><strong>Teléfono / WhatsApp</strong><a href="tel:+527441289515">744 128 9515</a> &middot; <a href="https://wa.me/527441289515">Escríbenos por WhatsApp</a></li>
+              <li><strong>Ubicación</strong>Ciudad de México, México</li>
+              <li><strong>Horario de atención</strong>Lunes a viernes, de 9:00 a 18:00 h</li>
+              <li><strong>Redes sociales</strong>@lumenlabstudio (Instagram, Facebook y TikTok)</li>
+            </ul>
+            <figure>
+              <img src="img/contacto.svg" alt="Ilustración de un sobre de correo y un globo de conversación" width="480" height="280">
+              <figcaption>Figura 9. Escríbenos por el medio que prefieras.</figcaption>
+            </figure>
+            <p class="nota">El correo y las redes sociales son ficticios, con fines educativos.</p>
+          </div>
+          <form action="#" method="post" aria-label="Formulario de contacto">
+            <h2>Solicita tu cotización</h2>
+            <label for="nombre">Nombre completo</label>
+            <input type="text" id="nombre" name="nombre" required placeholder="Tu nombre">
+            <label for="correo">Correo electrónico</label>
+            <input type="email" id="correo" name="correo" required placeholder="tucorreo@ejemplo.com">
+            <label for="servicio">Servicio de interés</label>
+            <select id="servicio" name="servicio">
+              <option>Página web de presentación</option>
+              <option>Tienda en línea básica</option>
+              <option>Identidad visual</option>
+              <option>Gestión de redes sociales</option>
+              <option>Mantenimiento web</option>
+            </select>
+            <label for="mensaje">Cuéntanos sobre tu negocio</label>
+            <textarea id="mensaje" name="mensaje" required placeholder="¿A qué se dedica tu negocio y qué necesitas?"></textarea>
+            <button type="submit" class="boton">Enviar mensaje</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="sitio">
+    <div class="contenedor">
+      <div>
+        <strong>Lumen Lab Studio</strong>
+        <p>Ilumina tu idea. Construye tu presencia.</p>
+        <p>Empresa ficticia creada con fines educativos.</p>
+      </div>
+      <div>
+        <strong>Mapa del sitio</strong>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="nosotros.html">Nosotros</a></li>
+          <li><a href="mision.html">Misión</a></li>
+          <li><a href="vision.html">Visión</a></li>
+          <li><a href="servicios.html">Servicios y tarifas</a></li>
+          <li><a href="proyectos.html">Proyectos</a></li>
+          <li><a href="contactanos.html">Contáctanos</a></li>
+        </ul>
+      </div>
+      <div>
+        <strong>Contacto</strong>
+        <p><a href="mailto:hola@lumenlabstudio.example">hola@lumenlabstudio.example</a></p>
+        <p><a href="tel:+527441289515">744 128 9515</a></p>
+        <p>Ciudad de México, México</p>
+      </div>
+      <p class="legal">Proyecto del Tercer Parcial &middot; STEAM III y Emprendimiento III &middot; Agosto&ndash;Diciembre 2026 &middot; Sección Preparatoria</p>
+    </div>
+  </footer>
+</body>
+</html>

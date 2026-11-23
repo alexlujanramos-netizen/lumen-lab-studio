@@ -1,0 +1,447 @@
+/* Lumen Lab Studio - Hoja de estilos común a todas las páginas */
+:root {
+  --azul: #14213d;
+  --azul-medio: #1f3a68;
+  --ambar: #fca311;
+  --ambar-oscuro: #b36f00;
+  --turquesa: #1f8a7d;
+  --claro: #f5f7fb;
+  --blanco: #ffffff;
+  --texto: #1d2433;
+  --gris: #5b6477;
+  --borde: #dde2ee;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--texto);
+  background: var(--claro);
+  line-height: 1.6;
+}
+
+img { max-width: 100%; height: auto; display: block; }
+
+a { color: var(--azul-medio); }
+
+.contenedor { width: min(1100px, 92%); margin: 0 auto; }
+
+/* ---------- Encabezado y navegación ---------- */
+header.sitio {
+  background: var(--azul);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+}
+
+header.sitio .contenedor {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 10px 0;
+}
+
+.marca { display: flex; align-items: center; gap: 10px; text-decoration: none; }
+.marca img { width: 44px; height: 44px; }
+.marca span { color: var(--blanco); font-weight: bold; font-size: 1.15rem; letter-spacing: 0.5px; }
+.marca span em { color: var(--ambar); font-style: normal; }
+
+nav ul { list-style: none; display: flex; flex-wrap: wrap; gap: 4px; }
+
+nav a {
+  display: block;
+  color: var(--blanco);
+  text-decoration: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  transition: background 0.2s, color 0.2s;
+}
+
+nav a:hover { background: var(--azul-medio); }
+nav a.activo { background: var(--ambar); color: var(--azul); font-weight: bold; }
+
+/* ---------- Portada (hero) ---------- */
+.hero {
+  background: linear-gradient(135deg, var(--azul) 0%, var(--azul-medio) 100%);
+  color: var(--blanco);
+  padding: 60px 0;
+}
+
+.hero .contenedor {
+  display: grid;
+  grid-template-columns: 1.1fr 1fr;
+  gap: 40px;
+  align-items: center;
+}
+
+.hero h1 { font-size: 2.6rem; line-height: 1.15; margin-bottom: 16px; }
+.hero h1 span { color: var(--ambar); }
+.hero p { font-size: 1.1rem; margin-bottom: 24px; color: #e6ebf5; }
+
+.boton {
+  display: inline-block;
+  background: var(--ambar);
+  color: var(--azul);
+  font-weight: bold;
+  text-decoration: none;
+  padding: 12px 26px;
+  border-radius: 8px;
+  margin-right: 10px;
+  margin-bottom: 8px;
+  transition: transform 0.2s, background 0.2s;
+}
+
+.boton:hover { background: #ffb938; transform: translateY(-2px); }
+
+.boton.secundario {
+  background: transparent;
+  color: var(--blanco);
+  border: 2px solid var(--blanco);
+}
+
+.boton.secundario:hover { background: rgba(255, 255, 255, 0.15); }
+
+/* Encabezado de páginas internas */
+.titulo-pagina {
+  background: linear-gradient(135deg, var(--azul) 0%, var(--azul-medio) 100%);
+  color: var(--blanco);
+  padding: 44px 0;
+  text-align: center;
+}
+
+.titulo-pagina h1 { font-size: 2.2rem; }
+.titulo-pagina p { color: #d6def0; margin-top: 8px; }
+
+/* ---------- Secciones ---------- */
+main section { padding: 50px 0; }
+main section.alterna { background: var(--blanco); }
+
+h2 {
+  color: var(--azul);
+  font-size: 1.75rem;
+  margin-bottom: 8px;
+}
+
+h2::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 4px;
+  background: var(--ambar);
+  border-radius: 2px;
+  margin-top: 8px;
+}
+
+h3 { color: var(--azul-medio); margin: 14px 0 6px; font-size: 1.2rem; }
+
+p { margin-bottom: 12px; }
+
+.intro { color: var(--gris); max-width: 760px; margin: 14px 0 28px; }
+
+.dos-columnas {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 36px;
+  align-items: center;
+  margin-top: 20px;
+}
+
+/* ---------- Tarjetas ---------- */
+.rejilla {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 22px;
+  margin-top: 24px;
+}
+
+.tarjeta {
+  background: var(--blanco);
+  border: 1px solid var(--borde);
+  border-top: 5px solid var(--ambar);
+  border-radius: 10px;
+  padding: 22px;
+  box-shadow: 0 3px 10px rgba(20, 33, 61, 0.07);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.tarjeta:hover { transform: translateY(-4px); box-shadow: 0 8px 18px rgba(20, 33, 61, 0.14); }
+.tarjeta h3 { margin-top: 0; }
+.tarjeta .precio { color: var(--turquesa); font-weight: bold; font-size: 1.2rem; }
+.tarjeta ul { margin: 10px 0 0 18px; color: var(--gris); font-size: 0.95rem; }
+
+.tarjeta.proyecto { padding: 0; overflow: hidden; border-top-width: 1px; }
+.tarjeta.proyecto figure { background: var(--azul); }
+.tarjeta.proyecto .cuerpo { padding: 18px 22px 22px; }
+
+figure figcaption {
+  font-size: 0.85rem;
+  color: var(--gris);
+  text-align: center;
+  padding: 6px 8px;
+  font-style: italic;
+}
+
+.tarjeta.proyecto figcaption { background: var(--claro); }
+
+/* Valores */
+.valor { text-align: center; }
+.valor .icono {
+  width: 56px; height: 56px; margin: 0 auto 10px;
+  border-radius: 50%;
+  background: var(--azul);
+  color: var(--ambar);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 1.6rem; font-weight: bold;
+}
+
+/* Estadísticas */
+.estadisticas {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 18px;
+  margin-top: 26px;
+}
+
+.estadistica {
+  background: var(--azul);
+  color: var(--blanco);
+  border-radius: 10px;
+  padding: 22px;
+  text-align: center;
+}
+
+.estadistica strong { display: block; font-size: 2.2rem; color: var(--ambar); }
+
+/* Bloque de cita (misión / visión) */
+.destacado {
+  background: var(--blanco);
+  border-left: 6px solid var(--ambar);
+  padding: 24px 28px;
+  border-radius: 0 10px 10px 0;
+  box-shadow: 0 3px 10px rgba(20, 33, 61, 0.08);
+  font-size: 1.15rem;
+  margin: 22px 0;
+}
+
+/* Tabla de precios */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: var(--blanco);
+  margin-top: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+caption { text-align: left; font-style: italic; color: var(--gris); padding: 6px 2px; }
+th { background: var(--azul); color: var(--blanco); text-align: left; padding: 12px; }
+td { padding: 12px; border-bottom: 1px solid var(--borde); }
+tr:nth-child(even) td { background: var(--claro); }
+
+/* Testimonios */
+blockquote {
+  background: var(--blanco);
+  border-left: 5px solid var(--turquesa);
+  padding: 16px 20px;
+  border-radius: 0 10px 10px 0;
+  color: var(--gris);
+  font-style: italic;
+  box-shadow: 0 3px 10px rgba(20, 33, 61, 0.07);
+}
+
+blockquote cite { display: block; margin-top: 8px; font-style: normal; font-weight: bold; color: var(--azul); }
+
+/* Contacto */
+form { background: var(--blanco); padding: 26px; border-radius: 10px; border: 1px solid var(--borde); }
+label { display: block; font-weight: bold; margin: 12px 0 4px; color: var(--azul); }
+
+input, select, textarea {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #b8c0d3;
+  border-radius: 6px;
+  font-family: inherit;
+  font-size: 1rem;
+}
+
+input:focus, select:focus, textarea:focus { outline: 3px solid var(--ambar); border-color: var(--azul); }
+textarea { min-height: 120px; resize: vertical; }
+form button { margin-top: 16px; border: none; cursor: pointer; font-size: 1rem; }
+
+.datos-contacto { list-style: none; }
+.datos-contacto li { padding: 10px 0; border-bottom: 1px solid var(--borde); }
+.datos-contacto strong { color: var(--azul); display: block; }
+
+.nota {
+  font-size: 0.85rem;
+  color: var(--gris);
+  background: #fff6e0;
+  border: 1px solid #f1d58f;
+  padding: 8px 12px;
+  border-radius: 6px;
+  margin-top: 14px;
+}
+
+/* ---------- Pie de página ---------- */
+footer.sitio {
+  background: var(--azul);
+  color: #d6def0;
+  padding: 30px 0 18px;
+  font-size: 0.9rem;
+}
+
+footer.sitio .contenedor {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+footer.sitio a { color: var(--ambar); }
+footer.sitio ul { list-style: none; }
+footer.sitio .legal { width: 100%; border-top: 1px solid #2d3d63; padding-top: 12px; text-align: center; }
+
+/* ---------- Tercer parcial: tipografía de títulos ---------- */
+h1, h2, h3, .marca span, .boton, nav a { font-family: "Poppins", Arial, Helvetica, sans-serif; }
+h2 { letter-spacing: -0.3px; }
+
+/* ---------- Carrusel de imágenes ---------- */
+.carrusel {
+  position: relative;
+  max-width: 900px;
+  margin: 10px auto 0;
+}
+
+.carrusel-ventana {
+  overflow: hidden;
+  border-radius: 16px;
+  box-shadow: 0 12px 30px rgba(20, 33, 61, 0.22);
+  background: var(--azul);
+}
+
+.carrusel-pista {
+  display: flex;
+  transition: transform 0.7s ease-in-out;
+}
+
+.diapositiva { flex: 0 0 100%; }
+.diapositiva img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; }
+.diapositiva figcaption { background: var(--azul); color: #d6def0; padding: 10px 14px; }
+
+.carrusel-boton {
+  position: absolute;
+  top: calc(50% - 22px);
+  transform: translateY(-50%);
+  width: 46px;
+  height: 46px;
+  border: none;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.92);
+  color: var(--azul);
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+  transition: background 0.2s, transform 0.2s;
+}
+
+.carrusel-boton:hover { background: var(--ambar); transform: translateY(-50%) scale(1.08); }
+.carrusel-anterior { left: 14px; }
+.carrusel-siguiente { right: 14px; }
+
+.carrusel-puntos { display: flex; justify-content: center; gap: 10px; margin-top: 16px; }
+
+.carrusel-puntos button {
+  width: 12px;
+  height: 12px;
+  border-radius: 6px;
+  border: none;
+  background: #b8c0d3;
+  cursor: pointer;
+  transition: width 0.3s, background 0.3s;
+}
+
+.carrusel-puntos button.activo { width: 32px; background: var(--ambar); }
+
+/* ---------- Tarjetas de servicios con imagen ---------- */
+.rejilla.servicios { grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); }
+.tarjeta.servicio { padding: 0; overflow: hidden; display: flex; flex-direction: column; }
+.tarjeta.servicio figure { background: var(--azul); }
+.tarjeta.servicio figure img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; }
+.tarjeta.servicio figcaption { background: var(--claro); }
+.tarjeta.servicio .cuerpo { padding: 18px 22px 22px; display: flex; flex-direction: column; flex: 1; }
+.tarjeta.servicio .boton { align-self: flex-start; margin-top: auto; padding: 10px 22px; }
+.tarjeta.servicio ul { margin-bottom: 18px; }
+.tarjeta .tiempo { color: var(--gris); font-size: 0.9rem; margin-bottom: 4px; }
+.tarjeta.servicio.destacada { border: 2px solid var(--ambar); border-top-width: 5px; }
+
+.etiqueta {
+  align-self: flex-start;
+  background: var(--ambar);
+  color: var(--azul);
+  font-weight: bold;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 4px 10px;
+  border-radius: 20px;
+  margin-bottom: 8px;
+}
+
+/* ---------- Video comercial ---------- */
+.video { max-width: 900px; margin: 10px auto 0; }
+
+.video-marco {
+  position: relative;
+  aspect-ratio: 16 / 9;
+  border-radius: 16px;
+  overflow: hidden;
+  background: linear-gradient(135deg, var(--azul) 0%, var(--azul-medio) 100%);
+  box-shadow: 0 12px 30px rgba(20, 33, 61, 0.22);
+}
+
+.video-marco iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+
+.video-pendiente {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: var(--blanco);
+  text-align: center;
+}
+
+.video-pendiente span {
+  width: 84px;
+  height: 84px;
+  border-radius: 50%;
+  background: var(--ambar);
+  color: var(--azul);
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 14px;
+  padding-left: 6px;
+}
+
+.video-pendiente p { font-family: "Poppins", Arial, sans-serif; font-weight: bold; font-size: 1.2rem; }
+
+/* ---------- Adaptación a pantallas pequeñas ---------- */
+@media (max-width: 800px) {
+  .hero .contenedor, .dos-columnas { grid-template-columns: 1fr; }
+  .hero h1 { font-size: 2rem; }
+  header.sitio { position: static; }
+  table { font-size: 0.9rem; }
+  .carrusel-boton { width: 38px; height: 38px; font-size: 1rem; }
+  .rejilla.servicios { grid-template-columns: 1fr; }
+}

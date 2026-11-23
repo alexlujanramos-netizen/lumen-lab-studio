@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-label="Elementos de identidad visual: logotipo, paleta de colores y tipografía">
+  <rect width="800" height="450" fill="#f5f7fb"/>
+  <rect x="0" y="0" width="800" height="12" fill="#fca311"/>
+  <!-- logo card -->
+  <rect x="50" y="60" width="300" height="300" rx="20" fill="#14213d"/>
+  <circle cx="200" cy="190" r="86" fill="#fca311"/>
+  <path d="M160 160 C160 130 180 116 200 116 C220 116 240 130 240 160 C240 182 226 192 222 206 H178 C174 192 160 182 160 160 Z" fill="#14213d"/>
+  <rect x="180" y="214" width="40" height="10" rx="5" fill="#14213d"/>
+  <path d="M188 150 L178 162 L188 174 M212 150 L222 162 L212 174 M204 146 L196 178" fill="none" stroke="#fca311" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="200" y="320" text-anchor="middle" font-family="Arial, sans-serif" font-size="26" font-weight="bold" fill="#ffffff">TU <tspan fill="#fca311">MARCA</tspan></text>
+  <!-- palette -->
+  <text x="400" y="88" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#14213d">Paleta de colores</text>
+  <rect x="400" y="104" width="76" height="76" rx="12" fill="#14213d"/>
+  <rect x="488" y="104" width="76" height="76" rx="12" fill="#1f3a68"/>
+  <rect x="576" y="104" width="76" height="76" rx="12" fill="#fca311"/>
+  <rect x="664" y="104" width="76" height="76" rx="12" fill="#1f8a7d"/>
+  <text x="438" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#5b6477">#14213D</text>
+  <text x="526" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#5b6477">#1F3A68</text>
+  <text x="614" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#5b6477">#FCA311</text>
+  <text x="702" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#5b6477">#1F8A7D</text>
+  <!-- typography -->
+  <text x="400" y="248" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#14213d">Tipografía</text>
+  <rect x="400" y="262" width="340" height="98" rx="12" fill="#ffffff" stroke="#dde2ee"/>
+  <text x="424" y="334" font-family="Arial, sans-serif" font-size="64" font-weight="bold" fill="#14213d">Aa</text>
+  <rect x="530" y="290" width="180" height="12" rx="6" fill="#14213d"/>
+  <rect x="530" y="312" width="150" height="9" rx="4" fill="#9aa4b8"/>
+  <rect x="530" y="330" width="120" height="9" rx="4" fill="#9aa4b8"/>
+  <text x="400" y="412" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#1f3a68">Una imagen que hace reconocible a tu negocio</text>
+</svg>

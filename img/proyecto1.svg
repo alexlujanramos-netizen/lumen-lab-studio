@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img" aria-label="Maqueta de página web de una cafetería">
+  <rect width="400" height="240" fill="#6b4226"/>
+  <rect x="30" y="24" width="340" height="192" rx="10" fill="#fff7ec"/>
+  <rect x="30" y="24" width="340" height="30" rx="10" fill="#3e2415"/>
+  <text x="46" y="45" font-family="Arial" font-size="15" font-weight="bold" fill="#fca311">Café Cántaro</text>
+  <ellipse cx="110" cy="130" rx="46" ry="12" fill="#d9c3a5"/>
+  <path d="M76 90 H144 V122 C144 140 128 146 110 146 C92 146 76 140 76 122 Z" fill="#3e2415"/>
+  <path d="M144 98 C162 98 162 122 144 122" fill="none" stroke="#3e2415" stroke-width="6"/>
+  <path d="M96 78 C90 68 102 62 96 52 M116 78 C110 68 122 62 116 52" fill="none" stroke="#b08968" stroke-width="4" stroke-linecap="round"/>
+  <rect x="200" y="80" width="140" height="12" rx="4" fill="#3e2415"/>
+  <rect x="200" y="102" width="120" height="8" rx="4" fill="#b08968"/>
+  <rect x="200" y="118" width="100" height="8" rx="4" fill="#b08968"/>
+  <rect x="200" y="146" width="80" height="24" rx="6" fill="#fca311"/>
+  <rect x="300" y="146" width="40" height="40" rx="4" fill="#3e2415"/>
+  <path d="M308 154 h8 v8 h-8 z M324 154 h8 v8 h-8 z M308 170 h8 v8 h-8 z M324 170 h4 v4 h-4 z" fill="#fff7ec"/>
+</svg>

@@ -1,0 +1,7 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Logotipo de Lumen Lab Studio">
+  <circle cx="50" cy="50" r="48" fill="#14213d" stroke="#fca311" stroke-width="4"/>
+  <path d="M50 18 C34 18 25 30 25 42 C25 52 31 58 36 63 L36 70 L64 70 L64 63 C69 58 75 52 75 42 C75 30 66 18 50 18 Z" fill="#fca311"/>
+  <rect x="38" y="74" width="24" height="5" rx="2.5" fill="#fca311"/>
+  <path d="M41 37 L33 47 L41 57 M59 37 L67 47 L59 57 M54 34 L46 60" fill="none" stroke="#14213d" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+

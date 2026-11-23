@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img" aria-label="Maqueta de página de donativos de una fundación con un brote creciendo">
+  <rect width="400" height="240" fill="#4f8a3c"/>
+  <rect x="30" y="24" width="340" height="192" rx="10" fill="#f4faef"/>
+  <rect x="30" y="24" width="340" height="30" rx="10" fill="#2f5d23"/>
+  <text x="46" y="45" font-family="Arial" font-size="15" font-weight="bold" fill="#fca311">Fundación Semilla</text>
+  <path d="M110 190 V130" stroke="#2f5d23" stroke-width="7" stroke-linecap="round"/>
+  <path d="M110 140 C80 138 68 116 70 98 C94 98 110 114 110 140 Z" fill="#6bbf4e"/>
+  <path d="M110 128 C140 124 152 100 148 80 C124 82 108 100 110 128 Z" fill="#4f8a3c"/>
+  <rect x="72" y="190" width="76" height="8" rx="4" fill="#8b5a2b"/>
+  <rect x="190" y="82" width="150" height="12" rx="4" fill="#2f5d23"/>
+  <rect x="190" y="104" width="130" height="8" rx="4" fill="#9db890"/>
+  <rect x="190" y="120" width="110" height="8" rx="4" fill="#9db890"/>
+  <rect x="190" y="146" width="150" height="14" rx="7" fill="#d6e8cc"/>
+  <rect x="190" y="146" width="96" height="14" rx="7" fill="#fca311"/>
+  <rect x="190" y="172" width="90" height="26" rx="6" fill="#2f5d23"/>
+</svg>

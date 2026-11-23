@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 320" role="img" aria-label="Ilustración de una diana con una flecha en el centro, símbolo de misión">
+  <rect width="480" height="320" rx="18" fill="#14213d"/>
+  <circle cx="240" cy="160" r="120" fill="#1f3a68"/>
+  <circle cx="240" cy="160" r="90" fill="#f5f7fb"/>
+  <circle cx="240" cy="160" r="62" fill="#1f8a7d"/>
+  <circle cx="240" cy="160" r="34" fill="#f5f7fb"/>
+  <circle cx="240" cy="160" r="14" fill="#fca311"/>
+  <path d="M240 160 L370 40" stroke="#fca311" stroke-width="7" stroke-linecap="round"/>
+  <path d="M370 40 L346 44 M370 40 L366 64 M352 30 L376 28 M390 60 L388 36" stroke="#fca311" stroke-width="6" stroke-linecap="round"/>
+</svg>

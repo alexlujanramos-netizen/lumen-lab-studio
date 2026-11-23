@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-label="Página web mostrada en una computadora portátil y en un celular">
+  <defs>
+    <linearGradient id="f1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#14213d"/><stop offset="1" stop-color="#1f3a68"/></linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#f1)"/>
+  <circle cx="680" cy="70" r="120" fill="#fca311" opacity="0.12"/>
+  <circle cx="90" cy="400" r="150" fill="#1f8a7d" opacity="0.18"/>
+  <!-- laptop -->
+  <rect x="150" y="80" width="420" height="260" rx="14" fill="#0d1628"/>
+  <rect x="164" y="94" width="392" height="232" rx="6" fill="#f5f7fb"/>
+  <rect x="164" y="94" width="392" height="30" fill="#14213d"/>
+  <circle cx="182" cy="109" r="7" fill="#fca311"/>
+  <rect x="196" y="104" width="70" height="10" rx="5" fill="#ffffff"/>
+  <rect x="420" y="104" width="34" height="10" rx="5" fill="#5b6477"/><rect x="460" y="104" width="34" height="10" rx="5" fill="#5b6477"/><rect x="500" y="104" width="40" height="10" rx="5" fill="#fca311"/>
+  <rect x="184" y="142" width="170" height="18" rx="5" fill="#14213d"/>
+  <rect x="184" y="168" width="150" height="10" rx="5" fill="#9aa4b8"/>
+  <rect x="184" y="184" width="130" height="10" rx="5" fill="#9aa4b8"/>
+  <rect x="184" y="206" width="90" height="26" rx="8" fill="#fca311"/>
+  <rect x="380" y="140" width="156" height="100" rx="10" fill="#1f8a7d"/>
+  <circle cx="420" cy="178" r="16" fill="#fca311"/>
+  <path d="M390 232 L440 190 L475 218 L500 200 L530 232 Z" fill="#14213d" opacity="0.7"/>
+  <rect x="184" y="256" width="110" height="54" rx="8" fill="#ffffff" stroke="#dde2ee"/>
+  <rect x="304" y="256" width="110" height="54" rx="8" fill="#ffffff" stroke="#dde2ee"/>
+  <rect x="424" y="256" width="112" height="54" rx="8" fill="#ffffff" stroke="#dde2ee"/>
+  <rect x="196" y="268" width="40" height="8" rx="4" fill="#fca311"/><rect x="316" y="268" width="40" height="8" rx="4" fill="#fca311"/><rect x="436" y="268" width="40" height="8" rx="4" fill="#fca311"/>
+  <rect x="196" y="284" width="80" height="6" rx="3" fill="#9aa4b8"/><rect x="316" y="284" width="80" height="6" rx="3" fill="#9aa4b8"/><rect x="436" y="284" width="80" height="6" rx="3" fill="#9aa4b8"/>
+  <path d="M110 340 H610 L585 362 H135 Z" fill="#2b3b5f"/>
+  <!-- phone -->
+  <rect x="560" y="150" width="120" height="230" rx="18" fill="#0d1628"/>
+  <rect x="570" y="166" width="100" height="198" rx="8" fill="#f5f7fb"/>
+  <rect x="570" y="166" width="100" height="22" fill="#14213d"/>
+  <circle cx="582" cy="177" r="5" fill="#fca311"/>
+  <rect x="580" y="198" width="80" height="50" rx="6" fill="#1f8a7d"/>
+  <rect x="580" y="256" width="66" height="10" rx="5" fill="#14213d"/>
+  <rect x="580" y="272" width="80" height="7" rx="3" fill="#9aa4b8"/>
+  <rect x="580" y="284" width="60" height="7" rx="3" fill="#9aa4b8"/>
+  <rect x="580" y="300" width="50" height="18" rx="6" fill="#fca311"/>
+  <rect x="580" y="328" width="80" height="26" rx="6" fill="#ffffff" stroke="#dde2ee"/>
+  <text x="400" y="420" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#ffffff">Páginas web que se ven bien en cualquier pantalla</text>
+</svg>

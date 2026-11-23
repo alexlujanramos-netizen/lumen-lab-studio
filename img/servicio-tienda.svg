@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-label="Tienda en línea en un celular con catálogo de productos y botón de pedido">
+  <rect width="800" height="450" fill="#1f8a7d"/>
+  <circle cx="120" cy="90" r="140" fill="#14213d" opacity="0.18"/>
+  <circle cx="700" cy="380" r="160" fill="#fca311" opacity="0.18"/>
+  <!-- phone -->
+  <rect x="290" y="30" width="220" height="390" rx="28" fill="#14213d"/>
+  <rect x="304" y="52" width="192" height="346" rx="12" fill="#f5f7fb"/>
+  <rect x="304" y="52" width="192" height="36" fill="#14213d"/>
+  <text x="318" y="76" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#fca311">Mi Tienda</text>
+  <circle cx="474" cy="70" r="9" fill="none" stroke="#ffffff" stroke-width="2.5"/>
+  <!-- product grid -->
+  <g>
+    <rect x="316" y="100" width="80" height="96" rx="8" fill="#ffffff" stroke="#dde2ee"/>
+    <rect x="326" y="110" width="60" height="44" rx="6" fill="#fde3b0"/><circle cx="356" cy="132" r="14" fill="#fca311"/>
+    <rect x="326" y="162" width="46" height="7" rx="3" fill="#14213d"/><rect x="326" y="175" width="30" height="8" rx="3" fill="#1f8a7d"/>
+    <rect x="404" y="100" width="80" height="96" rx="8" fill="#ffffff" stroke="#dde2ee"/>
+    <rect x="414" y="110" width="60" height="44" rx="6" fill="#d8e3f5"/><rect x="430" y="118" width="28" height="30" rx="4" fill="#1f3a68"/>
+    <rect x="414" y="162" width="46" height="7" rx="3" fill="#14213d"/><rect x="414" y="175" width="30" height="8" rx="3" fill="#1f8a7d"/>
+    <rect x="316" y="206" width="80" height="96" rx="8" fill="#ffffff" stroke="#dde2ee"/>
+    <rect x="326" y="216" width="60" height="44" rx="6" fill="#cdeee9"/><path d="M340 252 L356 222 L372 252 Z" fill="#1f8a7d"/>
+    <rect x="326" y="268" width="46" height="7" rx="3" fill="#14213d"/><rect x="326" y="281" width="30" height="8" rx="3" fill="#1f8a7d"/>
+    <rect x="404" y="206" width="80" height="96" rx="8" fill="#ffffff" stroke="#dde2ee"/>
+    <rect x="414" y="216" width="60" height="44" rx="6" fill="#f6d5d5"/><circle cx="444" cy="238" r="13" fill="#d9534f"/>
+    <rect x="414" y="268" width="46" height="7" rx="3" fill="#14213d"/><rect x="414" y="281" width="30" height="8" rx="3" fill="#1f8a7d"/>
+  </g>
+  <rect x="316" y="320" width="168" height="40" rx="20" fill="#25d366"/>
+  <text x="400" y="346" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#ffffff">Pedir por WhatsApp</text>
+  <!-- cart -->
+  <g transform="translate(560 150)">
+    <circle cx="70" cy="70" r="70" fill="#ffffff"/>
+    <path d="M30 45 H48 L60 95 H108 L118 58 H54" fill="none" stroke="#14213d" stroke-width="8" stroke-linejoin="round" stroke-linecap="round"/>
+    <circle cx="66" cy="110" r="8" fill="#14213d"/><circle cx="102" cy="110" r="8" fill="#14213d"/>
+    <circle cx="112" cy="36" r="16" fill="#fca311"/><text x="112" y="42" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#14213d">3</text>
+  </g>
+  <!-- price tag -->
+  <g transform="translate(80 170) rotate(-12)">
+    <path d="M0 0 H120 L150 40 L120 80 H0 Z" fill="#fca311"/>
+    <circle cx="124" cy="40" r="8" fill="#1f8a7d"/>
+    <text x="54" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="26" font-weight="bold" fill="#14213d">$</text>
+  </g>
+</svg>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 320" role="img" aria-label="Ilustración de un ojo y un horizonte con sol, símbolo de visión a futuro">
+  <rect width="480" height="320" rx="18" fill="#1f3a68"/>
+  <circle cx="240" cy="210" r="70" fill="#fca311" opacity="0.9"/>
+  <rect x="0" y="210" width="480" height="110" fill="#14213d"/>
+  <path d="M0 250 L90 200 L160 240 L260 180 L350 235 L420 205 L480 235 L480 320 L0 320 Z" fill="#1f8a7d"/>
+  <path d="M110 120 C160 60 320 60 370 120 C320 180 160 180 110 120 Z" fill="#f5f7fb"/>
+  <circle cx="240" cy="120" r="34" fill="#14213d"/>
+  <circle cx="240" cy="120" r="14" fill="#fca311"/>
+  <circle cx="251" cy="109" r="6" fill="#f5f7fb"/>
+</svg>
